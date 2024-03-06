@@ -1,4 +1,4 @@
-function App(props){
+function login(props){
     const {user} = props
 
     return( 
@@ -9,4 +9,4 @@ function App(props){
     )
 }
 
-export default App
+export default login
