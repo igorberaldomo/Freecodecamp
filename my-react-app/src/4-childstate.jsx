@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-export default function ParentComponent(){
+export default function ParentComponentstate(){
     const [name,setName] = useState('John')
-    return <ChildComponent name = {name} setName={setName}/>
+    return <ChildComponentstate name = {name} setName={setName}/>
 } 
 
-function ChildComponent(Props){
+function ChildComponentstate(Props){
     return(
         <>
         <h1>Hello {Props.name}</h1>
