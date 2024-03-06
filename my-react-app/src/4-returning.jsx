@@ -8,8 +8,9 @@ export default function ParentComponent(){
      ocupation = "Software Engineer" />
 }
 function ChildComponent(props){
-    return <> <p> Hello World! My name is {props.name}.</p> 
+    return <Fragment> <p> Hello World! My name is {props.name}.</p> 
     <p>My age is {props.age}</p>
-    <p>I am a {props.ocupation}</p></>
+    <p>I am a {props.ocupation}</p>
+    </Fragment>
 
 }
