@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function App(){
+function togglediv(){
     const [ isParagraphVisible, SetIsParagraphVisible] = useState(true);
     const toggleStatus= ()=>{
         SetIsParagraphVisible(!isParagraphVisible);
@@ -18,4 +18,4 @@ function App(){
     );
 }
 
-export default App
+export default togglediv

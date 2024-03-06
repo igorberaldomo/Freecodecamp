@@ -1,4 +1,4 @@
-function App (){
+function gotemails (){
     const newEmails = 2
     return(
         <>
@@ -12,4 +12,4 @@ function App (){
         </>
     )
 }
-export default App
+export default gotemails

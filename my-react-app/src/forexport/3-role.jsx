@@ -1,4 +1,4 @@
-export default function App(){
+export default function role(){
     const users = [
         {id:1, name:'Nathan', role:'Web Developer'},
         {id:2, name:'John', role:'Web Designer'},

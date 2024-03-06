@@ -1,13 +1,13 @@
 import { Fragment } from "react"
 
-export default function ParentComponent(){
+export default function ParentComponentreturning(){
     return < ChildComponent
      name = 'John'
      age = {29}
      hobbies = {["read books" ,"Drink coffee"]}
      ocupation = "Software Engineer" />
 }
-function ChildComponent(props){
+function ChildComponentreturning(props){
     return <Fragment> <p> Hello World! My name is {props.name}.</p> 
     <p>My age is {props.age}</p>
     <p>I am a {props.ocupation}</p>
