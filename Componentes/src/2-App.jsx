@@ -9,4 +9,4 @@ function A1() {
   ) 
 }
 // fora do código se comenta assim
-export default App
+export default A1

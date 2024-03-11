@@ -1,7 +1,7 @@
 import { Fragment } from "react"
 
 export default function ParentComponentreturning(){
-    return < ChildComponent
+    return < ChildComponentreturning
      name = 'John'
      age = {29}
      hobbies = {["read books" ,"Drink coffee"]}
